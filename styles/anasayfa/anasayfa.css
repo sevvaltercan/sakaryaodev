@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #menu li a.active {
+    background-color: white;
+    color: black;
+  }
+  
+  
+  #menu {
+    background-color: #143b1e; 
+  }
+  
+  #menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu ul li {
+    display: inline-block;
+  }
+  
+  #menu ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff; 
+    text-decoration: none;
+  }
+  
+  #menu ul li a:hover {
+    background-color: #3ec35d; 
+  }
+  
+  #menu ul li a.active {
+    background-color: #fff; /* SeÃ§ili Ã¶ÄŸenin arka plan rengi */
+    color: #8B4513; /* SeÃ§ili Ã¶ÄŸenin metin rengi */
+  }
+  
+  .icerik {
+    padding: 20px;
+  }
+  
+  .slider {
+    overflow-x: auto; /* Yatay kaydÄ±rma Ã§ubuÄŸunu etkinleÅŸtir */
+    white-space: nowrap; /* Resimlerin yatay olarak sÄ±ÄŸmasÄ± */
+  }
+  
+  .slider img {
+    width: auto; /* Resimlerin orijinal boyutunda kalmasÄ±nÄ± saÄŸlar */
+    height: 200px; /* Sabit bir yÃ¼kseklik */
+    margin-right: 10px; /* Resimler arasÄ±nda boÅŸluk bÄ±rakÄ±r */
+  }
+  
