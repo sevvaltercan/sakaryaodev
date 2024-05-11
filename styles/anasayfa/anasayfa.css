@@ -39,8 +39,8 @@ body {
   }
   
   #menu ul li a.active {
-    background-color: #fff; /* SeÃ§ili Ã¶ÄŸenin arka plan rengi */
-    color: #8B4513; /* SeÃ§ili Ã¶ÄŸenin metin rengi */
+    background-color: #fff; 
+    color: #010101; 
   }
   
   .icerik {
