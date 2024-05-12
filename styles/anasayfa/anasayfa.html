@@ -1,0 +1,96 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anasayfa</title>
+<link rel="stylesheet" href="anasayfa.css">
+<style>
+  
+  .slider {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative; 
+  }
+
+  .slider img {
+    width: calc(100% / 6); 
+    display: inline-block;
+    vertical-align: top;
+  }
+
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .prev {
+    left: 0;
+  }
+
+  .next {
+    right: 0;
+  }
+
+  
+  .bilgiler {
+    padding: 20px;
+  }
+
+  .bilgiler ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .bilgiler ul li {
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div id="menu">
+    <ul>
+      <li><a href="#" id="hakkimizda" class="active">Hakkımızda</a></li> <!-- Değişiklik burada -->
+      <li><a href="iletisim.html" id="iletisim">İletişim</a></li>
+      <li><a href="sehrim.html" id="sehrim">Şehrim</a></li>
+      <li><a href="ozgecmisim.html" id="ozgecmisim">Özgeçmiş</a></li>
+      <li><a href="mirasim.html" id="mirasim">Mirasımız</a></li>
+    </ul>
+  </div>
+  <div class="icerik">
+    <div class="slider">
+      <img src=“skyresim1.jpeg” alt="Manzara Resmi 2">
+      <img src=“skyresim2.jpeg" alt="Manzara Resmi 3">
+    </div>
+    <div class="bilgiler">
+      <h3>Kişisel Bilgiler</h3>
+      <ul>
+        <li>Adım: Şevval Tercan</li>
+        <li>Yaşım: 22</li>
+        <li>Okulum: Sakarya Üniversitesi</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Ok işaretleri için Font Awesome kütüphanesi -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<script src="anasayfa.js"></script>
+</body>
+</html>
