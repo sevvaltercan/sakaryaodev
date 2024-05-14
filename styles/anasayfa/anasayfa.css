@@ -48,13 +48,13 @@ body {
   }
   
   .slider {
-    overflow-x: auto; /* Yatay kaydÄ±rma Ã§ubuÄŸunu etkinleÅŸtir */
-    white-space: nowrap; /* Resimlerin yatay olarak sÄ±ÄŸmasÄ± */
+    overflow-x: auto; 
+    white-space: nowrap; 
   }
   
   .slider img {
-    width: auto; /* Resimlerin orijinal boyutunda kalmasÄ±nÄ± saÄŸlar */
-    height: 200px; /* Sabit bir yÃ¼kseklik */
-    margin-right: 10px; /* Resimler arasÄ±nda boÅŸluk bÄ±rakÄ±r */
+    width: auto; 
+    height: 200px; 
+    margin-right: 10px; 
   }
   
