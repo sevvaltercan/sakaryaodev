@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>İletişim</title>
+<link rel="stylesheet" href="anasayfa.css">
+</head>
+<body>
+<div class="container">
+  <div id="menu">
+    <ul>
+      <li><a href="anasayfa.html" id="hakkimizda">Hakkımızda</a></li>
+      <li><a href="#" id="iletisim" class="active">İletişim</a></li>
+      <li><a href="sehrim.html" id ="sehrim">Şehrim</a></li>
+      <li><a href="ozgecmisim.html" id="ozgecmisim">Özgeçmiş</a></li>
+      <li><a href="mirasim.html" id="mirasim">Mirasımız</a></li>
+    </ul>
+  </div>
+  <div class="icerik">
+    <div class="bilgiler">
+      <h3>İletişim Bilgileri</h3>
+      <ul>
+        <li>E-posta: sevvaltercan@icloud.com</li>
+        <li>Telefon: 552 232 9277</li>
+      </ul>
+   
+</div>
+
+<script>
+function hakkimizdaSayfasinaYonlendir() {
+  window.location.href = "anasayfa.html"; 
+}
+
+document.getElementById('hakkimizdaLink').addEventListener('click'), function(event) {
+  event.preventDefault(); 
+  hakkimizdaSayfasinaYonlendir(); }
+</script>
+</body>
+</html>
