@@ -6,9 +6,9 @@ function gosterHakkimizda()
 {
    
     document.getElementById('icerik').innerHTML = `
-    < h3 > Hakkımızda </ h3 >
-    < p > Merhaba, benim adım[İsminiz]. Kendimle alakalı bilgiler burada yer alacak.</ p >
-    < p > ...</ p >
+    <h3> Hakkımızda </h3>
+    <p> Merhaba, benim adım Şevval. Sakarya Üniversitesi Matematik Bölümü öğrencisi 3.sınıf öğrencisiyim.</p >
+
   `;
 }
 
