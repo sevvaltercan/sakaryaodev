@@ -6,7 +6,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     var password = document.getElementById('password').value;
   
     
-    if (username === 'sevval' && password === 'sakarya.54') {
+    if (username === 'sevval' && password === '1111') {
       
       document.getElementById('message').innerText = 'Hoşgeldiniz ' + username;
       

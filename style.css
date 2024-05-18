@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #135c16;
+    background-color: #0f5611;
   }
   
   .container {
     max-width: 400px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #fdfffd;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
@@ -54,6 +54,6 @@ body {
   }
   
   #message {
-    color: #ecf3ed;
+    color: #3f7e49;
     font-weight: bold;
   }
