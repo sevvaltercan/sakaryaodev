@@ -6,9 +6,9 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     var password = document.getElementById('password').value;
   
     
-    if (username === 'sevval' && password === '1111') {
+    if (username === 'b234400377@sakarya.edu.tr' && password === 'b234400377') {
       
-      document.getElementById('message').innerText = 'Hoşgeldiniz ' + username;
+      document.getElementById('message').innerText = 'Hoşgeldiniz b234400377 ' ;
       
       setTimeout(function() {
         window.location.href = "anasayfa.html";
