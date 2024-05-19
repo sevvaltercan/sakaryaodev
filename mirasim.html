@@ -39,22 +39,50 @@
   </div>
   <div class="icerik">
     <div class="miras-container">
-      <h3>Mirasımız</h3>
-      <div class="mirasimimg">
-        <img src="mirasimimg/orhancami.jpeg" alt="orhancami">
-      </div>
-      <div class="mirasimimg">
-        <img src="mirasimimg/jüstinyenus.jpeg" alt="jüstinyenusköprüsü">
-      </div>
-      <div class="mirasimimg">
-        <img src="mirasimimg/uzuncarsi.jpeg" alt="uzuncarsi">
-      </div>
-      <div class="mirasimimg">
-        <img src="mirasimimg/cark.jpeg" alt="tarihicark">
-      </div>
-      <div class="mirasimimg">
-        <img src="mirasimimg/beyazit.jpeg" alt="2.beyazitköprüsü">
-      </div>
+      <h1>Mirasımız</h1>
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          
+          <img src="mirasimimg/orhancami.jpeg" style="width:30%">
+          <div class="text">Orhan Cami</div>
+        </div>
+        
+        <div class="mySlides fade">
+  
+          <img src="mirasimimg/jüstinyenus.jpeg" style="width:30%">
+          <div class="text">Jüstinyanus Köprüsü</div>
+        </div>
+        
+        <div class="mySlides fade">
+          
+          <img src="mirasimimg/uzuncarsi.jpeg" style="width:30%">
+          <div class="text">Uzun Çarşı</div>
+        </div>
+        <div class="mySlides fade">
+          
+          <img src="mirasimimg/cark.jpeg" style="width:30%">
+          <div class="text">Tarihi Çark</div>
+        </div>
+        <div class="mySlides fade">
+          
+          <img src="mirasimimg/beyazit.jpeg" style="width:30%">
+          <div class="text">2.Beyazıt Köprüsü</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+          <span class="dot" onclick="currentSlide(5)"></span> 
+        </div>
       <div class="miras-text">
         <p>Sakarya’yı; tarih, kültür ve doğal güzellikleriyle Türkiye’nin kesişim noktasındaki şehir olarak tanımlayabiliriz. Tarihi İpek Yolu üzerinde bulunan ve asırlar boyu doğu ile batıyı birbirine bağlayan şehir, bir geçiş noktası olmuştur.
 </p>
@@ -82,6 +110,7 @@
 </div>
 
 <script src="anasayfa.js"></script>
+<script src="mirasim.js"></script>
 
 </body>
 </html>
